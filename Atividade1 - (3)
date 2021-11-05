@@ -1,14 +1,13 @@
-n1 = int (input("Digite o primeiro numéro: "))
-n2 = int (input("Digite o segundo numéro: "))
-n3 = int (input("Digite o terceiro numero: "))
+n1 = int(input("Digite o primeiro numéro: "))
+n2 = int(input("Digite o segundo numéro: "))
+n3 = int(input("Digite o terceiro numero: "))
 
-if (n1<n2):
-   if (n1<n3):
-      print ("N1 é o numero menor")
-   else:
-      print ("N3 é o numero menor)
-elif (n2<n3):
-      print ("N2 é o numero menor)
+if (n1 < n2):
+    if (n1 < n3):
+        print("primeiro é o numero menor")
+    else:
+        print("terceiro é o numero menor")
+elif (n2 < n3):
+     print("segundo é o numero menor")
 else:
-      print ("N3 é o numero menor")
-      
+     print("terceiro é o numero menor")
