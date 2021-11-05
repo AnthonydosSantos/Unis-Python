@@ -1,1 +1,10 @@
+idade = int(input("idade:"))
+nDias = (idade*365.2425)
 
+anos = nDias // 365
+meses = (nDias - (anos *365)) // 30
+dias = (nDias - (anos * 365) - (meses*30))
+
+print("anos = %.1f" % anos)
+print("meses = %.1f" % meses)
+print("dias = %.1f" % dias)
